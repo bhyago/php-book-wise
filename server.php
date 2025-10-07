@@ -1,3 +1,3 @@
-<?php 
-
-$_SERVER['HOMEPATH'] = '~';
+<?php
+$_SERVER["HOMEPATH"]="~";
+?>
