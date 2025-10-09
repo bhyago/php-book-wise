@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Book Wise</title>
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-stone-950 text-stone-200">
@@ -15,9 +15,11 @@
                 <li><a href="/" class="text-lime-500">Explorar</a></li>
                 <li><a href="/meus-livros.php" class="hover:underline">Meus Livros</a></li>
             </ul>
+
             <ul>
                 <li><a href="/login.php">Fazer Login</a></li>
             </ul>
+
         </nav>
     </header>
 

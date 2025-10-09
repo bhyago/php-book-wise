@@ -1,4 +1,8 @@
 <?php
-  require 'dados.php';
-  view('index', compact('livros'));
+
+$db = new DB();
+$livros = $db->livros();
+
+
+view('index', compact('livros'));
 ?>
