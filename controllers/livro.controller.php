@@ -1,7 +1,7 @@
 <?php
-  require 'dados.php';
-  $id = $_REQUEST['id'];
-  $filtrado = array_filter($livros, fn($l) =>  $l['id'] == $id);
-  $livro = array_pop($filtrado);
-  view('livro', compact('livro'));
+$id = $_REQUEST['id'];
+$db = new DB();
+$livros = $db->livros($id);
+  
+view('livro', compact('livro'));
 ?>
